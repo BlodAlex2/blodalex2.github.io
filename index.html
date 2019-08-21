@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8" />
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="My website is a web development portfolio. Here you can find out what I can do and find my contacts." />
+  		<meta name="author" content="Reznichenko Alex" />
+  		<meta name="keywords" content="Reznichenko Alex ukrainian portfolio web development front-end css html css sccs sass javascript jquery"/>
+
+      <meta property="og:title" content="Web Development | Reznichenko Alex" />
+      <meta property="og:description" content="Offer front-end development." />
+      <meta property="og:site_name" content="Reznichenko Alex, Freelancer" />
+      <meta name="twitter:image:alt" content="Reznichenko Alex Portfolio Page" />
+
+    	<script src="https://use.fontawesome.com/81ebd77a72.js"></script>
+    	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/ScrollToPlugin.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+
+			<link href="https://fonts.googleapis.com/css?family=PT+Sans:400&subset=latin-ext" rel="stylesheet"/>
+			<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=latin-ext" rel="stylesheet" />
+
+    	<link rel="stylesheet" href="stylesheets/styles.css" />
+      <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    	<title>Web Development | Reznichenko Alex</title>
+	</head>
+
+	<body>
+  	<nav class="navbar">
+  		<div class="navbar-content">
+  			<div class="collapse-btn">
+          <div class="collapse-btn-icon">
+            <div class="collapse-line" id="top-line"></div>
+            <div class="collapse-line" id="middle-line"></div>
+            <div class="collapse-line" id="bottom-line"></div>
+          </div>
+  			</div>
+  			<a href="#" class="brand">BloodAlex</a>
+  	    <div id="nav">
+  	      <button id="home-btn">Home</button>
+          <button id="portfolio-btn">Portfolio</button>
+          <button id="bio-btn">About Me</button>
+          <button id="contact-btn">Contact</button>
+  	    </div>
+  		</div>
+  	</nav>
+  	 <div class="parallax">
+  		<div class="page" id="page1">
+  			<div class="background" id="bckg1"></div>
+  			<div class="background" id="bckg2"></div>
+  			<div class="background" id="bckg3"></div>
+
+  			<div class="home-page-content">
+          <span class="home-page-welcome" id="homePageWelcome">Welcome to my portfolio</span>
+          <h1 class="home-page-text home-page-title">Reznichenko Alex</h1>
+          <span class="home-page-text home-page-subtitle">Web Developer / Web Designer</span>
+  			</div>
+        <button class="home-page-btn">
+          <svg class="arrow" width="20" height="20">
+            <polyline points="0,5 10,15 20,5" />
+          </svg>
+        </button>
+  		</div>
+
+  		<div class="page" id="page2">
+  			<div class="portfolio">
+          <h2>Portfolio</h2>
+
+  				<div class="portfolio-item">
+            <h3>Tokio Pages</h3>
+            <img src="images/cech_ror_portfolio.png" alt="Work" class="potfolio-img" />
+  					<button class="modal-btn" data-modal="1">More Info</button>
+            <a href="https://cech-ror-portfolio.herokuapp.com/" target="_blank" class="portfolio-mobile-link">
+            </a>
+  				</div>
+  				<div class="portfolio-item">
+            <h3>Site Portfolio</h3>
+  					<img src="images/cech_portfolio.png" alt="Work" class="potfolio-img" />
+  					<button class="modal-btn" data-modal="2">More Info</button>
+  				</div>
+  			</div>
+  		</div>
+
+      <section class="sections">
+        <div class="slider">
+          <div class="slider__wrapper">
+            <div class="slider__item">
+              <div style="height: 350px; background-image: url(images/gory.jpg); background-size: cover;"><blockquote>Workers of programmers should evaluate not by their ingenuity, but by the completeness of the analysis of each situation.</blockquote></div>
+            </div>
+            <div class="slider__item">
+              <div style="height: 350px;background-image: url(images/derevo.jpg); background-size: cover;"><blockquote>If programmers deserve a reward for creating progressive programs, then they also deserve punishment if they limit the use of these programs.</blockquote></div>
+            </div>
+            <div class="slider__item">
+              <div style="height: 350px;background-image: url(images/vetka.jpg); background-size: cover;"><blockquote>Whenever two programmers meet to critically analyze their programs, they are both silent.</blockquote></div>
+            </div>
+            <div class="slider__item">
+              <div style="height: 350px; background-image: url(images/les_tuman.jpg); background-size: cover;"><blockquote>The programmer’s prospects can be assessed by learning his opinion on the viability of Fortran.</blockquote></div>
+            </div>
+          </div>
+          <a class="slider__control slider__control_left" href="#" role="button"></a>
+          <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+        </div>
+      </section>
+  		<div class="page" id="page3">
+        <div class="about-me-content">
+          <h2>About Me</h2>
+          <p>
+            I am a beginner Front-End Developer. I use many different programming languages ​​and development environments. I make layouts from PSD to Pixel Perfect, for this I use such skills and technologies as: HTML5, CSS3 / SASS (SCSS), BootStrap 4.0, pure JavaScript, PhotoShop, Wordpress. To promote the site, I use SEO optimization and comply with W3C standards.
+          </p>
+          <p>
+            I study at the Faculty of Computer Science at V.N. Karazin Kharkiv National University, where I gain good knowledge in the field of Web developer, such as building a SQL database system, setting up an Apache server, programming in Java / C ++ and data science.
+            Also in 2018, I graduated from the STEP Computer Academy, as a result of which I received a diploma in software development. Where in the course of training such technologies as: MS SQL server programming and Administration, ADO.NET: Database Access Technology, Object Oriented Design using UML, System Programming, Network Programming, Application Development using WPF, Windows .NET Framework and C# Programming Language, Web Application Development with ASP.NET and AJAX, Design Patterns, Back-end Development With PHP.
+          </p>
+          <div class="container">
+            <div class="box">
+              <div class="chart" data-percent="90">90%</div>
+              <h3>HTML</h3>
+            </div>
+            <div class="box">
+              <div class="chart" data-percent="85">85%</div>
+              <h3>CSS</h3>
+            </div>
+            <div class="box">
+              <div class="chart" data-percent="70">70%</div>
+              <h3>JavaScript</h3>
+            </div>
+            <div class="box">
+              <div class="chart" data-percent="95">95%</div>
+              <h3>PhotoShop</h3>
+            </div>
+            <div class="box">
+              <div class="chart" data-percent="90">90%</div>
+              <h3>SQL</h3>
+            </div>
+          </div>
+    </div>
+  </div>
+
+      <div class="page" id="page4">
+  			<div class="background"></div>
+  			<div class="contact-card">
+          <div class="contact-card-content">
+            <img src="images/contact_photo.png" alt="Contact photo" class="contact-img"/>
+            <span class="contact-name">Reznichenko Alex</span>
+            <span class="contact-info">Front-End Web Developer</span>
+            <span class="contact-info">Email: <a href="mailto:lehareznichenko2@gmail.com">lehareznichenko2@gmail.com</a></span>
+            <a href="https://github.com/BlodAlex2" target="_blank">
+              <i class="fa fa-github contact-icon" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/leha_reznichenko/" target="_blank">
+              <i class="fa fa-instagram contact-icon" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/alex-reznichenko-78ab6b171/" target="_blank">
+              <i class="fa fa-linkedin contact-icon" aria-hidden="true"></i>
+            </a>
+             <a href="https://www.facebook.com/alex.reznichenko.73" target="_blank">
+              <i class="fa fa-facebook contact-icon" aria-hidden="true"></i>
+            </a>
+            <a href="https://vk.com/kaluvan228" target="_blank">
+              <i class="fa fa-vk contact-icon" aria-hidden="true"></i>
+            </a>
+             <div class="Down">
+            <a href="https://drive.google.com/file/d/1SoCqpL3J9TwSWKvgZpzqySyzZyS4JxlM/view?usp=sharing" target="_blank" class="downloadButton"><i class="fa fa-download" aria-hidden="true"></i>Download Resume</a>
+          </div>
+          </div>
+  			</div>
+  		</div>
+      <footer>
+        <span class="footer-content">&copy; 2019 | <b>BloodAlex</b> All rights reserved.</span>
+      </footer>
+  	</div>
+    <div class="modal">
+      <div class="modal-card" id="modalCard1">
+        <div class="modal-card-content">
+          <h2>Tokio Pages</h2>
+          <div class="modal-features">
+            <h3>Features:</h3>
+            <ul>
+              <li>Blogging System</li>
+              <li>Live Comments with Action Cable</li>
+              <li>Multiple Layouts</li>
+              <li>Twitter Feed</li>
+            </ul>
+          </div>
+          <div class="modal-technologies">
+            <h3>Technologies:</h3>
+            <ul>
+              <li>Devise</li>
+              <li>jQuery UI</li>
+              <li>Coderay</li>
+            </ul>
+            <ul>
+              <li>Action Cable</li>
+              <li>Petergate</li>
+              <li>Postgres</li>
+            </ul>
+          </div>
+          <a href="https://github.com/BlodAlex2/TokioPages" target="_blank" class="modal-git-btn">
+            <span>GIT Repository</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="modal-card" id="modalCard2">
+        <div class="modal-card-content">
+          <h2>Site Portfolio</h2>
+          <div class="modal-features">
+            <h3>Features:</h3>
+            <ul>
+              <li>CSS Parallax Effect</li>
+              <li>Responsive Layout</li>
+              <li>Full Screen Slideshow</li>
+              <li>GSAP Animations</li>
+              <li>Blur Filters</li>
+            </ul>
+          </div>
+          <div class="modal-technologies">
+            <h3>Technologies:</h3>
+            <ul>
+              <li>jQuery</li>
+              <li>Scroll To</li>
+            </ul>
+            <ul>
+              <li>Susy</li>
+              <li>GSAP</li>
+              <li>Scroll Magic</li>
+            </ul>
+          </div>
+          <a href="#" target="_blank" class="modal-git-btn modal-git-clear">
+            <span>GIT Repository</span>
+          </a>
+        </div>
+      </div>
+    <script src="javascripts/animations.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.easypiechart.js"></script>
+    <script>
+      $(function() {
+          $('.chart').easyPieChart({
+              barColor: '#17d3e6',
+              scaleColor: false,
+              lineWidth: 10,
+              trackColor: '#373737',
+              lineCap: 'circle',
+              animate: 3000
+          });
+      });
+    </script>
+	</body>
+</html>
