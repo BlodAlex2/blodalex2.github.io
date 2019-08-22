@@ -656,7 +656,6 @@ button:focus {
 }
 .section {
     height: 250px;
-    border: 300px solid black;
 }
 #page2 .portfolio .portfolio-item:last-child {
     margin-bottom: 0
@@ -737,7 +736,8 @@ button:focus {
     height: 115px;
 }
 .container .box{
-    width: 20%;
+    width: 33%;
+    margin-bottom: 30px;
     float: left;
 }
 .container .box h3{
@@ -763,7 +763,8 @@ button:focus {
 
 #page3 {
     background-color: #EEF1F3;
-    z-index: 1
+    z-index: 1;
+    height: 1150px;
 }
 
 #page3 .about-me-content {
@@ -792,11 +793,14 @@ button:focus {
         margin: 0 auto;
         padding: 7rem 5rem
     }
+    #page3 {
+        height: 780px;
+    }
     #page3 .about-me-content h2 {
         margin-bottom: 3rem;
     }
-    #page3 .about-me-content .Down {
-
+    #page3 .about-me-content .box {
+        width: 16.6%;
     }
 }
 
@@ -962,13 +966,18 @@ button:focus {
     }
 
     .slider__item>div {
-      font-size: 20px;
-      text-align: center;
-      vertical-align: middle;
-       font-style: italic; 
-      padding: 8em 0;
-      color: white;
+        font-size: 20px;
+        text-align: center;
+        vertical-align: middle;
+        font-style: italic; 
+        padding: 6em 0;
+        color: white;
     }
+@media (min-width: 768px) {
+    .slider__item>div {
+        padding: 8em 0;
+    }
+}
 footer {
     height: 0;
     z-index: 1;
