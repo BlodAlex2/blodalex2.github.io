@@ -764,7 +764,6 @@ button:focus {
 #page3 {
     background-color: #EEF1F3;
     z-index: 1;
-    height: 1150px;
 }
 
 #page3 .about-me-content {
@@ -793,17 +792,53 @@ button:focus {
         margin: 0 auto;
         padding: 7rem 5rem
     }
-    #page3 {
-        height: 780px;
-    }
     #page3 .about-me-content h2 {
         margin-bottom: 3rem;
+    }
+    #page3{
+        height: auto;
     }
     #page3 .about-me-content .box {
         width: 16.6%;
     }
 }
 
+@media (max-width: 864px) {
+   
+    #page3{
+        height: 1000px;
+    }
+    #page3 .about-me-content .box {
+        width: 33%;
+    }
+}
+@media (max-width: 825px) {
+   
+    #page3{
+        height: 1100px;
+    }
+    #page3 .about-me-content .box {
+        width: 33%;
+    }
+}
+@media (max-width: 600px) {
+   
+    #page3{
+        height: 1100px;
+    }
+    #page3 .about-me-content .box {
+        width: 33%;
+    }
+}
+@media (max-width: 526px) {
+   
+    #page3{
+        height: 1350px;
+    }
+    #page3 .about-me-content .box {
+        width: 33%;
+    }
+}
 #page4 {
     height: 100%;
     z-index: 0;
